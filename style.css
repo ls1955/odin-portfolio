@@ -28,3 +28,9 @@ header {
 footer {
     display: flex;
 }
+
+.footer-image-container {
+    background-color: black;
+    min-width: 550px;
+    min-height: 250px;
+}

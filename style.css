@@ -15,14 +15,18 @@ header {
 }
 
 .card {
-    flex: 1;
     background-color: aquamarine;
-    min-width: 200px;
+    max-width: 350px;
 }
 
 .project-screenshot-container {
     background-color: black;
     height: 100px;
+}
+
+.project-header-container {
+    display: flex;
+    justify-content: space-between;
 }
 
 footer {
@@ -34,3 +38,8 @@ footer {
     min-width: 550px;
     min-height: 250px;
 }
+
+/* a:link {
+    width: 44px;
+    height: 44px;
+} */

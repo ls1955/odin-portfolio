@@ -2,10 +2,10 @@ header {
     display: flex;
 }
 
-.image {
-    background-color: aqua;
-    width: 300px;
-    height: 300px;
+.profile-image-container {
+    background-color: black;
+    min-width: 400px;
+    min-height: 250px;
 }
 
 .cards-container {

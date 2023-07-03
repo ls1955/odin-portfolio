@@ -17,5 +17,10 @@ header {
 .card {
     flex: 1;
     background-color: aquamarine;
-    min-width: 300px;
+    min-width: 200px;
+}
+
+.project-screenshot-container {
+    background-color: black;
+    height: 100px;
 }

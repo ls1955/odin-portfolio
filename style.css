@@ -24,3 +24,7 @@ header {
     background-color: black;
     height: 100px;
 }
+
+footer {
+    display: flex;
+}

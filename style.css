@@ -1,6 +1,9 @@
+body {
+    padding: 40px;
+}
+
 header {
     display: flex;
-    padding: 40px;
     column-gap: 50px;
 }
 
@@ -13,22 +16,35 @@ header {
 .cards-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 40px;
 }
 
 .card {
-    background-color: aquamarine;
-    max-width: 350px;
+    border: 1px solid;
+    max-width: 300px;
 }
 
 .project-screenshot-container {
-    background-color: black;
-    height: 100px;
+    border-bottom: 2px solid;
+    height: 200px;
+}
+
+.project-description-container {
+    padding: 10px;
+    padding-bottom: 40px;
 }
 
 .project-header-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.project-links-container {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 10px;
 }
 
 footer {
@@ -41,14 +57,9 @@ footer {
     min-height: 250px;
 }
 
-/* a:link {
-    width: 44px;
-    height: 44px;
-} */
-
 img, svg {
-    width: 44px;
-    height: 44px;
+    width: 30px;
+    height: 30px;
 }
 
 .contacts-container, .address-container, .emails-container {

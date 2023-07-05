@@ -1,9 +1,11 @@
 header {
     display: flex;
+    padding: 40px;
+    column-gap: 50px;
 }
 
 .profile-image-container {
-    background-color: black;
+    border: 1px solid;
     min-width: 400px;
     min-height: 250px;
 }

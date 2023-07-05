@@ -43,3 +43,8 @@ footer {
     width: 44px;
     height: 44px;
 } */
+
+img, svg {
+    width: 44px;
+    height: 44px;
+}

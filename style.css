@@ -13,6 +13,11 @@ header {
     min-height: 250px;
 }
 
+img, svg {
+    width: 30px;
+    height: 30px;
+}
+
 .cards-container {
     display: flex;
     flex-wrap: wrap;
@@ -48,21 +53,21 @@ header {
 }
 
 footer {
+    margin-top: 40px;
+    padding: 0 30px;
     display: flex;
-}
-
-.footer-image-container {
-    background-color: black;
-    min-width: 550px;
-    min-height: 250px;
-}
-
-img, svg {
-    width: 30px;
-    height: 30px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .contacts-container, .address-container, .emails-container {
     display: flex;
     align-items: center;
+    column-gap: 15px;
+}
+
+.footer-image-container {
+    border: 1px solid;
+    min-width: 400px;
+    min-height: 250px;
 }

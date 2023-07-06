@@ -98,3 +98,13 @@ footer {
         row-gap: 20px;
     }
 }
+
+@media (width < 450px) {
+    body {
+        padding: 10px;
+    }
+
+    .profile-image-container {
+        min-width: 90%;
+    }
+}

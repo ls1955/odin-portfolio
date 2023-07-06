@@ -26,6 +26,7 @@ img, svg {
 
 .cards-container {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 40px;
 }
@@ -64,6 +65,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    column-gap: 20px;
 }
 
 .contacts-container, .address-container, .emails-container {
@@ -73,7 +75,8 @@ footer {
 }
 
 .footer-image-container {
+    display: inline-block;
     border: 1px solid;
-    min-width: 400px;
+    min-width: 300px;
     min-height: 250px;
 }

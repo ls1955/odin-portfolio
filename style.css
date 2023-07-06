@@ -13,6 +13,12 @@ header {
     min-height: 250px;
 }
 
+.profile-links-container {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 img, svg {
     width: 30px;
     height: 30px;

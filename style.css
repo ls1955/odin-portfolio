@@ -80,3 +80,21 @@ footer {
     min-width: 300px;
     min-height: 250px;
 }
+
+@media (width < 750px) {
+    body {
+        padding: 20px;
+    }
+    header {
+        flex-direction: column;
+    }
+
+    .card {
+        max-width: 250px;
+    }
+
+    footer {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+}

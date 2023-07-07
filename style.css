@@ -47,6 +47,13 @@ header {
     flex-direction: row-reverse;
 }
 
+/* 
+    NOTE: The img and svg at here refers to only small icons.
+    As such, if we were to include actual image at
+    other places in the future, this will certainly cause
+    some issues. As the requirements for change hasn't
+    arrive (yet), the author will leave this as it is.
+*/
 img, svg {
     width: 30px;
     height: 30px;

@@ -1,4 +1,6 @@
 body {
+    background-color: #ffffff;
+    color: #1b1b1b;
     padding: 40px;
 }
 
@@ -115,4 +117,13 @@ a img:hover, a svg:hover {
     .profile-image-container {
         min-width: 90%;
     }
+}
+
+body.dark-mode {
+    background-color: #1b1b1b;
+    color: #ffffff;
+}
+
+img.dark-mode, svg.dark-mode {
+    filter: invert(1);
 }

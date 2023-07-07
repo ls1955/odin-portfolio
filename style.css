@@ -4,6 +4,20 @@ body {
     padding: 40px;
 }
 
+.top-navigation-container {
+    background-color: #ffffff;
+    padding: 10px;
+
+    display: flex;
+    justify-content: flex-end;
+
+    position: sticky;
+    top: 0;
+
+    /* To prevent clicking components underneath */
+    z-index: 10;
+}
+
 header {
     display: flex;
     column-gap: 50px;
@@ -122,6 +136,10 @@ a img:hover, a svg:hover {
 body.dark-mode {
     background-color: #1b1b1b;
     color: #ffffff;
+}
+
+.top-navigation-container.dark-mode {
+    background-color: #1b1b1b;
 }
 
 img.dark-mode, svg.dark-mode {

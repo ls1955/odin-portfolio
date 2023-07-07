@@ -138,6 +138,15 @@ a img:hover, a svg:hover {
     transform: scale(1.20);
 }
 
+@media (width >= 1200px) {
+    .card {
+        max-width: 33%;
+    }
+    .profile-image-container, .footer-image-container {
+        min-width: 40%;
+    }
+}
+
 @media (width < 750px) {
     body {
         padding: 20px;

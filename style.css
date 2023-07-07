@@ -59,6 +59,12 @@ img, svg {
     height: 30px;
 }
 
+/* Used technology for project */
+img.used-technology {
+    width: 25px;
+    height: 25px;
+}
+
 .cards-container {
     display: flex;
     justify-content: center;
@@ -92,6 +98,13 @@ img, svg {
     display: flex;
     justify-content: space-around;
     column-gap: 10px;
+}
+
+.used-technologies-container {
+    padding-top: 20px;
+    display: flex;
+    column-gap: 5px;
+    justify-content: flex-end;
 }
 
 footer {

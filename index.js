@@ -1,4 +1,5 @@
-const imgs = document.querySelectorAll("img")
+// A workaround to filter some imgs that should not have dark mode version
+const imgs = document.querySelectorAll("img:not(.no-dark-mode)")
 const svgs = document.querySelectorAll("svg")
 const themeBtn = document.querySelector("#theme-switcher")
 const topNavContainer = document.querySelector(".top-navigation-container")

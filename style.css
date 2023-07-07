@@ -18,6 +18,18 @@ body {
     z-index: 10;
 }
 
+#theme-switcher {
+    border: 2px solid;
+    background-color: #ffffff;
+    padding: 10px;
+    transition: transform 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+#theme-switcher:hover {
+    transform: scale(1.2);
+}
+
 header {
     display: flex;
     column-gap: 50px;
@@ -139,6 +151,11 @@ body.dark-mode {
 }
 
 .top-navigation-container.dark-mode {
+    background-color: #1b1b1b;
+}
+
+#theme-switcher.dark-mode {
+    color: #ffffff;
     background-color: #1b1b1b;
 }
 

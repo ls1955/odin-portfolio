@@ -5,6 +5,7 @@ const topNavContainer = document.querySelector(".top-navigation-container")
 
 themeBtn.addEventListener("click", () => {
     document.body.classList.toggle("dark-mode")
+    themeBtn.classList.toggle("dark-mode")
     topNavContainer.classList.toggle("dark-mode")
 
     // NOTE: Be sure to only apply class on intended components
@@ -14,6 +15,7 @@ themeBtn.addEventListener("click", () => {
 
 if (window.matchMedia("(prefers-color-scheme: dark)")) {
     document.body.classList.toggle("dark-mode")
+    themeBtn.classList.toggle("dark-mode")
     topNavContainer.classList.toggle("dark-mode")
 
     imgs.forEach(img => img.classList.toggle("dark-mode"))
